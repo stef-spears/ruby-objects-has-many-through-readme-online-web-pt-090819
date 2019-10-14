@@ -27,7 +27,7 @@ class Waiter
     best_tipped_meal = meals.max do |meal_a, meal_b| # compare each item in turn & assign largest
       meal_a.tip <=> meal_b.tip 
     end
-    best_tipped_meal.customer # return Meals instance with max tip 
+    best_tipped_meal.customer # return customer instance with max tip 
   end 
   
 end
